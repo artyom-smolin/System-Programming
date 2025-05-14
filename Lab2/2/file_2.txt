@@ -1,0 +1,6 @@
+a : = 1;
+b := 3425;
+c := a and b; &
+*d := 0; 23 #comment
+test1 test2
+test3

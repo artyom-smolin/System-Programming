@@ -1,0 +1,21 @@
+﻿  2.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54): warning C4267: инициализация: преобразование из "size_t" в "_Ty2"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54): warning C4267:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54): warning C4267:         ]
+  (компиляция исходного файла "2.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\utility(274,54):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          A:\ИАТЭ НИЯУ МИФИ\3 курс\2 сем\СП\Лабы\Лаба 2\2\2\2.cpp(201,21):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<Lexeme,int>::pair<_Ty&,size_t,0>(_Other1,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Ty=Lexeme,
+              _Other1=Lexeme &,
+              _Other2=size_t
+          ]
+              A:\ИАТЭ НИЯУ МИФИ\3 курс\2 сем\СП\Лабы\Лаба 2\2\2\2.cpp(201,20):
+              см. первую ссылку на std::pair<Lexeme,int>::pair "main"
+  
+  2.vcxproj -> A:\ИАТЭ НИЯУ МИФИ\3 курс\2 сем\СП\Лабы\Лаба 2\2\x64\Debug\2.exe

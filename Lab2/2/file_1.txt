@@ -1,0 +1,5 @@
+a := 1; #comment# 
+b := 0;
+c := a and not b; #c is true# 
+value := (a xor c) or b; #value is false#
+test := 1
